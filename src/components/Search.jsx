@@ -1,21 +1,18 @@
-// import React from "react";
 
-// function Search({search, setSearch}) {
-//   function handleSearch(event){
-//     setSearch(event.target.value)
-//   } 
+
+function Search({setSearch, search}) {
   
-//   return (
-//     <div className="ui large fluid icon input">
-//       <input
-//         type="text"
-//         placeholder="Search your Recent Transactions"
-//         value={search}
-//         onChange={handleSearch}
-//       />
-//       <i className="circular search link icon"></i>
-//     </div>
-//   );
-// }
+    
+  return (
+    <div >
+        <form className="d-flex" role="search">
+        <button className="btn btn-outline-dark bg-success" type="submit">Search</button>
+    <input value = {search} onInput = {(e)=>{
+      setSearch(e.target.value)
+    }} className="form-control me-2" type="search" placeholder="Search Recent Transctions" aria-label="Search" />
+      </form>
+    </div>
+  );
+}
 
-// export default Search;
+export default Search;

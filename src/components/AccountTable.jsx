@@ -1,4 +1,5 @@
-const AccountTable = ({list})=> {
+const AccountTable = ({newList})=> {
+    
     return (
         <table className="table table-success table-striped table-hover">
             <thead>
@@ -10,19 +11,9 @@ const AccountTable = ({list})=> {
                 </tr>
             </thead>
             <tbody>
-                {
-                list.map((item, index)=>{
-                        return(
-                            <tr key={index}>
-                                <td>{item.date}</td>
-                                <td>{item.description}</td>
-                                <td>{item.category}</td>
-                                <td>{item.amount}</td>
-                            </tr>
-                        )
-                  })
-                }
-            </tbody>
+               {newList}
+     
+     </tbody>
         </table>
     )
 }
