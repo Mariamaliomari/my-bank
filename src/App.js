@@ -14,7 +14,7 @@ function App() {
   function addTransaction(transaction){
 
 
-    fetch("http://localhost:3000/transactions",
+    fetch("http://localhost:8001/transactions",
     {
       method: "POST",
       headers: {
@@ -31,7 +31,7 @@ function App() {
   }
 
 useEffect(()=>{
-  fetch("http://localhost:3000/transactions")
+  fetch("http://localhost:8001/transactions")
   .then(response=>(response.json())
   ).then(data =>{
     setList(data)

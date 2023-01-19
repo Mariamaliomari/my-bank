@@ -4,6 +4,7 @@ For this project, you’ll be building out a React application that displays a l
 
 Part of what this code challenge is testing is your ability to follow given instructions. While you will definitely have a significant amount of freedom in how you implement the features, be sure to carefully read the directions for setting up the application.
 Setup
+
  **********
  # After unbundling the project:
 
@@ -20,7 +21,7 @@ Endpoints
 
 The base URL for your backend is: http://localhost:3001
 Core Deliverables
-
+**********
  # As a user, You should be able to:
 
     See a table of the transactions.

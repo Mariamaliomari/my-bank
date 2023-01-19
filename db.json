@@ -97,7 +97,13 @@
       "description": "Office lunch Wednesday",
       "category": "Food",
       "amount": "3000"
+    },
+    {
+      "date": "2023-01-19",
+      "description": "bread",
+      "category": "movie",
+      "amount": "-5",
+      "id": 15
     }
-    
   ]
 }
